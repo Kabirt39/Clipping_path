@@ -1,0 +1,203 @@
+body{
+    //font-family: 'brandon grotesque';
+    .header_area{
+        .header_top{
+            border-bottom: 1px solid #f8f8f8;
+            .container{
+                .row{
+                    .col-md-6{
+                        .header_top_left{
+                            select{
+                                border: none;
+                            }
+                            span{
+                                display: inline-block;
+                                padding: 12px 10px;
+                                cursor: pointer;
+                                &.header_top_left_span{
+                                    background-color: #00d968;
+                                    display: inline-block;
+                                    font-weight: bold;
+                                    padding: 12px 20px;
+                                }
+                                i{
+                                    &.fa-phone{
+                                        color:#fff;
+                                        padding-right: 5px;
+                                    }
+                                    &.fa-skype{
+                                        color: #018e42;
+                                    }
+                                    &.fa-commenting{
+                                        color: #018e42;
+                                    }
+                                }
+                                
+                                
+                                &.htla1{
+                                    a{
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        color: #717171;
+                                    }
+                                }
+                                &.htla2{
+                                    background-color: #eadc01;
+                                    font-weight: 500;
+                                    padding: 12px 35px;
+                                    border-radius: 35px;
+                                    a{
+                                        display: inline-block;
+                                        text-decoration: none;
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header_nav {
+            background-image: linear-gradient(#fcfefd, #d6f9e5, #8bedba);
+        }
+    }
+    .how_it_works{
+        .header_top{
+            .container{
+                .row{
+                    .col-md-2{
+                        h2{}
+                        p{}
+                    }
+                    .col-md-8{
+                        img{}
+                    }
+                }
+            }
+        }
+    }
+    .clipping_process{
+        .container{
+            .row{
+                .col-md-12{
+                    .clipping_process_top{
+                        h2{}
+                    }
+                }
+                .col-md-4{
+                    img{}
+                    h3{}
+                    p{}
+                    .clipping_process_before{
+                        img{}
+                    }
+                    .clipping_process_after{
+                        img{}
+                    }
+                }
+            }
+        }
+    }
+    .works_area{
+        .container{
+            .row{
+                .col-md-12{
+                    h2{}
+                    p{}
+                    .you_and_me{
+                        img{}
+                        ul{
+                            li{
+                                span{
+                                    .you_top{}
+                                    .you_bottom{}
+                                }
+                            }
+                        }
+                        p{
+                            i{}
+                        }
+                        .youimg{}
+                        .weimg{}
+                    }
+
+                }
+            }
+        }
+    }
+    .payment_area{
+        .container{
+            .row{
+                .col-md-12{
+                    h3{}
+                    .payment_logo{
+                        span{
+                            img{}
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_area{
+        .footer_top_botton{
+            a{
+                i{}
+            }
+        }
+        .footer_top{
+            .container{
+                .row{
+                    .col-md-4{
+                        .footer_services{
+                            h3{}
+                            ul{
+                                li{
+                                    a{}
+                                }
+                            }
+                        }
+                        .get_in_touch{
+                            h3{ }
+                            input{}
+                            textarea{}
+                            button{}
+                            .get_in_icon{
+                                a{
+                                    i{}
+                                }
+                            }
+                        }
+                        .footer_about{
+                            p{
+                                .footer_about_p{}
+                            }
+                            a{}
+                        }
+                    }
+                }
+            }
+        }
+        .footer_bottom{
+            .container{
+                .row{
+                    .col-md-4{
+                        .footer_services{
+                            h3{}
+                            ul{
+                                li{
+                                    a{}
+                                }
+                            }
+                        }
+                        .get_in_touch{
+                            h3{}
+                            input{}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
